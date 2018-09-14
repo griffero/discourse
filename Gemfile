@@ -127,7 +127,6 @@ group :test, :development do
   gem 'rspec-html-matchers'
   gem 'pry-nav'
   gem 'byebug', require: ENV['RM_INFO'].nil?
-  gem 'rubocop', require: false
 end
 
 group :development do
